@@ -43,4 +43,5 @@ Module 18
 ![image](https://github.com/jilldvn/Credit_Risk_Analysis/blob/main/Image/EEC%20imbalanced%20report.png)
 
 ## C. Summary: 
-### Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+### In this project, a dataset of customers' financial status and outcomes are available, therefore, six common sklearn library modules could be used to predict future customers' high or low credit risk. Comparisons of these six modules with its balanced accuracy score, probability of precision and sensitivity in each high and low risk populations are output. <br>
+### Due to the nature of credit score predictions, we would like to have higher sensitivity in each risk level rather than precisions, as the result, a higher balance accuracy score with higher recall score (named as "rec" in classification report) would be a preferable choice of module to be recommended in this project. With the highest balance score of 0.92 and recall (sensitivity) scores in both high (0.89) and low risk (0.94), it is recommended to apply Easy Ensemble AdaBoost Classifier in this case. 
